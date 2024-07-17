@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root {
+    --color-black: #141414;
+    --color-black-two: #1f1f1f;
+    --colosr-black-tree: #333333;
+    --color-white: #fff;
+    --color-green: #abcf39;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container--Div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 21.8rem;
+    height: 34.3rem;
+    background-color: var(--color-black-two);
+    border-radius: 10px;
+}
+
+.container--Div img {
+    margin-top:2.3rem;
+    border-radius: 3.1rem;
+    width: 5.3rem;
+}
+
+.container .titles {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 17px;
+    color: var(--color-white)
+}
+
+.container .titles h4 {
+    color: var(--color-green)
+}
+
+p {
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.container .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-white);
+    font-weight: 600;
+
+}
+
+.container .links a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16.8rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--colosr-black-tree);
+}
+
+.container .links a:hover {
+    background-color: var(--color-green);
+    color: #333333;
+}
+
